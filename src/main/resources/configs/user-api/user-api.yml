@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: user-api
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.MySQL5Dialect
+    show-sql: true
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/user1
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+
+services:
+  email: it.by
+  userName: root
+  password: root
